@@ -9,11 +9,11 @@ data:
   mapUsers: |
     - groups:
       - expense-trainee
-      userarn: arn:aws:iam::169810528182:user/lakshmi
+      userarn: arn:aws:iam::169810528182:user/lakshmi/expense
       username: lakshmi
     - groups:
       - expense-admin
-      userarn: arn:aws:iam::169810528182:user/venkatesh
+      userarn: arn:aws:iam::169810528182:user/venkatesh/expense
       username: venkatesh 
 kind: ConfigMap
 metadata:
